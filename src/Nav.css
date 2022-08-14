@@ -36,3 +36,38 @@
 	width: 30px;
 	height: 30px;
 }
+
+ul {
+	list-style-type: none;
+	position: fixed;
+	top: 10px;
+	left: 120px;
+	margin: 0;
+	padding: 0px;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: gray;
+	/* Animations */
+	transition-timing-function: ease-in;
+	transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+	.options {
+		display: none;
+	}
+}

@@ -28,6 +28,27 @@ function Nav() {
 					alt="Netflix logo"
 					onClick={() => navigate("/")}
 				/>
+
+				<div className="options">
+					<ul>
+						<li>
+							<a href="/">Home</a>
+						</li>
+						<li>
+							<a href="/">Series</a>
+						</li>
+						<li>
+							<a href="/">Films</a>
+						</li>
+						<li>
+							<a href="/">New & Popular</a>
+						</li>
+						<li>
+							<a href="/">My List</a>
+						</li>
+					</ul>
+				</div>
+
 				<img
 					className="nav_avatar"
 					src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png?0201013161117"
