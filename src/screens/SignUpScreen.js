@@ -13,7 +13,7 @@ function SignUpScreen() {
 			.then((userCredential) => {
 				// Signed in
 				const user = userCredential.user;
-				console.log(user);
+				//console.log(user);
 			})
 			.catch((error) => {
 				const errorCode = error.code;
@@ -27,7 +27,7 @@ function SignUpScreen() {
 
 		signInWithEmailAndPassword(auth, emailRef.current.value, passwordRef.current.value)
 			.then((authUser) => {
-				console.log(authUser);
+				//console.log(authUser);
 			})
 			.catch((error) => {
 				const errorCode = error.code;

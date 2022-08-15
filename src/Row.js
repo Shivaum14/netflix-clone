@@ -20,7 +20,7 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
 		fetchData();
 	}, [fetchUrl]);
 
-	console.log(movies);
+	//console.log(movies);
 
 	const opts = {
 		height: "700",
